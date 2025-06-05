@@ -1,0 +1,17 @@
+### LOGIN
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{
+  "username": "usuario1",
+  "password": "password1"
+}
+
+### CONSULTA POKEMONES (pega el token en Authorization)
+POST http://127.0.0.1:8000/pokemon
+Content-Type: application/json
+Authorization: Bearer TU_TOKEN_AQUI
+
+{
+  "pokemons": ["pikachu", "bulbasaur", "xyz"]
+}
