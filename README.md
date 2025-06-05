@@ -21,7 +21,7 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 
 usamremos la direccion mostrada :  http://127.0.0.1:8000 pero le agregamos la ruta docs es decir:
-http://127.0.0.1:8000/docs y esto es lo que copiaremos y colocaremos en la barra de direcciones de un browser , sea internet explorer, Google Chrome entre otro. Esto nos llevar a la interfaz de 
+http://127.0.0.1:8000/docs y esto es lo que copiaremos y colocaremos en la barra de direcciones de un browser , sea internet explorer, Google Chrome entre otro. Esto nos llevar a la interfaz de Swagger desde el navegador.
 
 6. Estando alli podemos observa la interfaz API, podemos observar que las APis estan impentadas, usando el metodo POST
 
