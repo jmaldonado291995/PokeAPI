@@ -164,8 +164,8 @@ o podemos ejecutar
   Desde Postman se puede importar el archivo pokeapi_postman_collection.json que contiene la coleccion para poder autenticarse y para poder buscar un pokemon.
 
 1. Hacer clic en Import que se ubica en la parte izquierda y arrastrar el archivo.
-2. Para las pruebas nos dirigiremos a Login ejecutaremos y obtendremos el token.
-3. Con el token nos dirigimos a Get Pokemon with token y nos dirigiremos a Authorization y lo que acompaña a Bearer  es e token, este ultimo lo reemplazamos por el token generado y como resultado veremos los que se solicita, los datos del pokemon asi como su cadena evolutiva.
+2. Para las pruebas nos dirigiremos a Login ejecutaremos y haremos clic en SEND obtendremos el token.
+3. Con el token nos dirigimos a Get Pokemon with token y nos dirigiremos a la pestaña Headres y en la seccion Authorization reemplazamos lo que acompaña a Bearer ( {{access_token}} ), es decir este ultimo lo reemplazamos por el token generado y como resultado veremos los que se solicita.
 
 ############################################################
 
