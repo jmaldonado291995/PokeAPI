@@ -171,7 +171,8 @@ o podemos ejecutar
 
 ### tests con pytest o unittest ###
 1. Nos ubicamos en la ruta donde esta descomprimido el proyecto , por ejemplo:  C:\Users\DELL\Desktop\POKEAPI>
-2. Ejecutamos el siguiente comando pytest test_main.py
+2. Ejecutamos el siguiente comando:
+>>>pytest test_main.py
 
 
  
